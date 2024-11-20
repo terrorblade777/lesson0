@@ -5,21 +5,21 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 students_in_alphabetical_order = sorted(students)
 print(students_in_alphabetical_order)
 average_score = {"Aaron": [5, 3, 3, 5, 4],
-                 "Bilbo": [2, 2, 2, 3],
-                 "Johnny": [4, 5, 5, 2],
-                 "Khendrik": [4, 4, 3],
-                 "Steve": [5, 5, 5, 4, 5]}
+"Bilbo": [2, 2, 2, 3],
+"Johnny": [4, 5, 5, 2],
+"Khendrik": [4, 4, 3],
+"Steve": [5, 5, 5, 4, 5]}
 
-grades[0]=sum(grades[0]) / len(grades[0])
-grades[1]=sum(grades[1]) / len(grades[1])
-grades[2]=sum(grades[2]) / len(grades[2])
-grades[3]=sum(grades[3]) / len(grades[3])
-grades[4]=sum(grades[4]) / len(grades[4])
-average_score["Aaron"]=grades[0]
-average_score["Bilbo"]=grades[1]
-average_score["Johnny"]=grades[2]
-average_score["Khendrik"]=grades[3]
-average_score["Steve"]=grades[4]
+grades[0] = sum(grades[0]) / len(grades[0])
+grades[1] = sum(grades[1]) / len(grades[1])
+grades[2] = sum(grades[2]) / len(grades[2])
+grades[3] = sum(grades[3]) / len(grades[3])
+grades[4] = sum(grades[4]) / len(grades[4])
+average_score["Aaron"] = grades[0]
+average_score["Bilbo"] = grades[1]
+average_score["Johnny"] = grades[2]
+average_score["Khendrik"] = grades[3]
+average_score["Steve"] = grades[4]
 print(average_score)
 
 
